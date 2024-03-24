@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+#name {
+    width: 35%;
+    height: 35%;
+    margin-top: 2em;
+    margin-left: 6em;
+    z-index: 2;
+}
+
+.content {
+    text-align: left;
+    z-index: 2;
+    margin-left: 8.3em;
+}
+
+/*主頁的短介紹*/
+#intro {
+    font-size: 1em;
+    line-height: 1.8;
+    color: lightgray;
+    margin-top: 1em;
+    z-index: 2;
+}
+
+/*主頁大圖*/
+#index_draw {
+    animation-name: draw;
+    animation-duration: 3s;
+    z-index: 4;
+    float: right;
+    margin-top: 3em;
+    margin-right: 1em;
+}
+
+/*主頁大圖動畫*/
+@keyframes draw {
+    0% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+
+}
+
+.menu-list img {
+    width: 91%;
+    height: 91%;
+    padding-top: 1em;
+}
+
+.menu {
+    float: right;
+    color: whitesmoke;
+    z-index: 3;
+}
+
+.bottom {
+    transition: all 0.2s;
+}
+
+.bottom:hover {
+    transform: scale(1.1, 1.1);
+}
+
+/*rwd*/
+@media screen and (max-width: 900px) {
+    #index_draw {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #index_draw {
+        width: 75%;
+        height: 75%;
+    }
+}

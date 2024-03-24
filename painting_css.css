@@ -1,0 +1,88 @@
+#head_back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999;
+    width: 100%;
+    height: 28%;
+}
+
+#h_icon {
+    z-index: 1;
+    width: 13%;
+    height: 13%;
+    margin-left: 0.5em;
+}
+
+#h_ig_icon {
+    z-index: 1;
+    width: 3%;
+    height: 3%;
+    margin-left: 73em;
+    margin-top: 2em;
+}
+
+.bottom:hover {
+    transform: scale(0.9, 0.9);
+}
+
+#intro {
+    padding-top: 1em;
+    margin-left: 2.2em;
+    font-size: 1.0em;
+    line-height: 1.8;
+    color: black;
+    margin-top: 1em;
+    z-index: 2;
+}
+
+#intro_img {
+    margin-right: 3em;
+    float: left;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 1em;
+}
+
+.description {
+    padding-top: 1em;
+    padding-right: 3em;
+    margin-left: 2.2em;
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: black;
+    margin-top: 1em;
+    z-index: 3;
+    text-align: justify;
+}
+
+.painting_x {
+    float: center;
+}
+
+tr+td {
+    padding-top: 80em
+}
+
+#foot_back {
+    position: absolute;
+    z-index: -999;
+    width: 100%;
+    height: 28%;
+}
+
+
+.bottom {
+    transition: all 0.2s;
+    width: 5%;
+    height: 5%;
+    z-index: 99;
+    margin-top: 3em;
+    padding-right: 2em;
+}
+
+.bottom:hover {
+    transform: scale(1.1, 1.1);
+}
